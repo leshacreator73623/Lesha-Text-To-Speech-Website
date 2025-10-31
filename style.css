@@ -50,7 +50,14 @@ textarea::placeholder{
     width: 600px;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 6px;
+}
+
+.row2{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 button{
@@ -87,3 +94,4 @@ select{
     background-position-x: calc(100% - 20px);
     background-position-y: 20px;
 }
+
