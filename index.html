@@ -11,8 +11,20 @@
     <h1>Lesha <span>Text To Speech</span></h1>
     <textarea placeholder="Write anything here..."></textarea>
     <div class="row">
+    <label for="rate">Rate/Speed:</label>
+    <input type="range" id="rate" min="0.25" max="4" value="1" step="0.1"><br>
+
+    <label for="pitch">Pitch:</label>
+    <input type="range" id="pitch" min="0.1" max="1" value="1" step="0.1"><br>
+
+    <label for="volume">Volume:</label>
+    <input type="range" id="volume" min="0" max="1" value="1" step="0.1"><br><br>
+</div>
+
+    <div class="row2">
         <select></select>
         <button><img src="img/play.png" alt="">Listen</button>
+        <button id="downloadButton"><img src="img/download.png" alt="">Download</button>
     </div>
 </div>
 <script src="script.js"></script>
